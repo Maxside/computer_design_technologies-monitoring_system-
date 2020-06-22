@@ -84,23 +84,3 @@ class Caretaker():
         for memento in self._mementos:
             print(memento.get_name())
 
-
-if __name__ == "__main__":
-    pass
-    # originator = Originator("Нове")
-    # caretaker = Caretaker(originator)
-
-    # caretaker.backup()
-    # originator.change_status("Активне")
-
-    # caretaker.backup()
-    # originator.change_status("Архівне")
-
-    # print()
-    # caretaker.show_history()
-
-    # print("\nClient: Виконати відкат!!\n")
-    # caretaker.undo()
-
-    # print("\nClient: Виконати відкат!\n")
-    # caretaker.undo()

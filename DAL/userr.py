@@ -37,5 +37,3 @@ class User():
     def getEmail(self):
         return self.email
 
-if __name__ == "__main__":
-    pass

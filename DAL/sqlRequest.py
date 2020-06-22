@@ -24,5 +24,3 @@ class SqlRequest:
     def Delete(self, obj):
         obj.delete()
 
-if __name__ == "__main__":
-    pass

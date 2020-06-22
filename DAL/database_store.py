@@ -15,21 +15,7 @@ class Product(db.Entity):
         return f"Product id[{self.product_id}] name: {self.name}"
 
     
-    
-
 db.generate_mapping(create_tables=True)
-
-
-# @db_session
-# def create_entities():
-#     # temp = Product(name = "Ноутбук ASUS ROG X502", quantity = 20 )
-#     # temp2 = Product(name = "Ноутбук LENOVO IdeaPad500s", quantity = 20 )
-#     # for p in Product.select(lambda p: p.quantity > 4):
-#     #     print(p.name, p.quantity)
-
-    
-
-# create_entities()
 
 
 
